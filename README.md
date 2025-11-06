@@ -1,52 +1,32 @@
-#Tasklin — Mobile (React Native / Expo)
+## Tasklin — Mobile (React Native / Expo)
 
-To-do simplu, rapid, local (fără backend). Statusuri clare: Upcoming, Overdue, Completed, Canceled.
+To-do simplu, rapid, local. Statusuri clare: Upcoming, Overdue, Completed, Canceled.
 Persistență cu AsyncStorage, notificări locale (Expo), gesturi rapide, dark mode.
 
-Funcționalități
+<br>
 
- Creare / editare / ștergere task-uri (titlu obligatoriu)
+## 🌈 Reguli status (pe scurt)
 
- Statusuri: Upcoming / Overdue / Completed / Canceled
+- ✅ **Completed** / 🚫 **Canceled** = setare manuală.  
+- ⏰ **Overdue** — dacă termenul e în trecut.  
+- 📅 **Upcoming** — dacă termenul e în viitor sau lipsește.  
 
- Subtask-uri (checklist, progres)
+<br>
 
- Notificări locale (reminder înainte și la termen)
+## 🧪 Test rapid (manual)
 
- Gesturi rapide: swipe (acțiuni), long-press (meniu)
+- [ ] ✍️ **Creează** un task (fără titlu → mesaj de eroare)
+- [ ] ✏️ **Editează** / 🗑️ **Șterge** (confirmare + *undo* dacă există)
+- [ ] ✅ **Marchează** *Completed* / 🚫 *Canceled* (revocare posibilă)
+- [ ] ⏳ **Verifică** trecerea **Upcoming ↔ Overdue** după termen
+- [ ] 🧩 **Subtask-uri:** adaugă / bifează, urmărește progresul
+- [ ] 🔔 **Notificări:** permisiune, reminder, anulare la *Completed* / *Deleted*
+- [ ] 👆 **Gesturi:** *swipe* / *long-press* fără conflict cu *scroll*
+- [ ] 🌙⚡ **Dark mode** + performanță listă (fluid cu ~500 item-uri)
 
- Dark mode + listă fluentă (țintă ~500 item-uri)
+<br>
 
- Reguli status (pe scurt)
+## 🤝 Contribuitori
 
-Completed / Canceled = setare manuală.
-
-Altfel:
-
-Overdue dacă termenul e în trecut.
-
-Upcoming dacă termenul e în viitor sau lipsește.
-
-Test rapid (manual)
-
- Creează task (fără titlu = mesaj de eroare)
-
- Editează/șterge task (confirmare + undo dacă există)
-
- Marchează Completed/Canceled (revocare posibilă)
-
- Verifică Upcoming ↔ Overdue după termen
-
- Subtask-uri: adaugă/bifează, vezi progresul
-
- Notificări: permisiune, reminder, anulare la Completed/Deleted
-
- Gesturi: swipe/long-press fără conflict cu scroll
-
- Dark mode + performanță listă
-
-Contribuitori
-
-Mobile: Ionita David-Theodor, Crăciun Andrei
-
-Web (React): Negru Andreea, Bradac Daniel
+- 📱 **Mobile:** Ionita David-Theodor, Crăciun Andrei  
+- 🌐 **Web (React):** Negru Andreea, Bradac Daniel

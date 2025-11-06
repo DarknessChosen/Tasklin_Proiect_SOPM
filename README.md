@@ -1,2 +1,2 @@
-# Tasklin---Proiect-SOPM
+# Tasklin - Proiect SOPM
 Proiectul de SOPM pentru aplicatia Tasklin
